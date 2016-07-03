@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Function</title>
+</head>
+<body>
+
+<h1>Nested Function demo</h1>
+
+	<script type="text/javascript">
+		function hypoteneous(m,n){
+			function square(num){
+				return num*num;
+			}
+
+			return square(m)  + square(n);
+		}
+
+		var result=hypoteneous(3,4);
+		alert("Nested Function demo:"+hypoteneous(3,4));
+		document.write("<br> The result is " +result);
+		console.log(result);
+	</script>
+
+</body>
+</html>
